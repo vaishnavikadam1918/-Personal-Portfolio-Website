@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #87ceeb, #f0f8ff);
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+h1 {
+  margin: 1rem 0 0.5rem;
+}
+.social-links {
+  margin-top: 1rem;
+}
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+.social-links a:hover {
+  color: #ff6600;
+}
+.social-links i {
+  margin-right: 6px;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: rgba(255,255,255,0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-top: 2rem;
+}
+h2 {
+  border-bottom: 2px solid #87ceeb;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skill {
+  padding: 8px 14px;
+  background: #87ceeb;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+.skill:hover {
+  background: #1e90ff;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 8px;
+  border: 2px solid #ddd;
+  transition: transform 0.3s, border-color 0.3s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+  border-color: #87ceeb;
+}
