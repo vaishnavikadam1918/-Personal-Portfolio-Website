@@ -22,7 +22,6 @@ Version Control: Git & GitHub
 portfolio/
 │── portfolio.html
 
-
 🌍 Deployment Steps
 
 Create an S3 bucket with a unique name.
@@ -45,6 +44,6 @@ If you'd like to connect, feel free to reach out:
 
 Email: your-email | vaishnavikadam8153@gmail.com
 
-LinkedIn: Your LinkedIn
+LinkedIn: www.linkedin.com/in/vaishnavi-kadam-206207311
 
-GitHub: Your GitHub
+GitHub: https://github.com/vaishnavikadam1918 
